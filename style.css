@@ -1,0 +1,159 @@
+
+/*Removes the scroll from the body*/
+body{
+    overflow-y: hidden;
+}
+
+.nav-item-font {
+    font-family: arial, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    
+}
+
+.navbar-btn {
+    width: 100px;
+}
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+}
+
+.appIcon:hover {
+    outline: #F0F0F0 solid 8px;
+    border-radius: 50%;
+    background-color: #F0F0F0;
+}
+
+/*Creating custom tooltip*/
+.custom-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 100px;
+    background-color: #333;
+    color: white;
+    font-family: arial, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 3px 0px;
+    opacity: 0.9;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50px;
+    z-index: 1;
+}
+
+.custom-tooltip:hover .tooltip-text {
+    visibility:visible;
+}
+/*End of tooltip*/
+
+.collapse-div{
+    position: absolute;
+    right: 20px;
+    width: 350px;
+    height: 993px;
+    transition: none;
+}
+
+.card-div {
+    width: 350px;
+    height: 480px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+div.row {
+    text-align: center;
+}
+
+.collapsibleIconStyle a {
+    text-decoration: none;
+}
+
+.collapsibleIconStyle:hover{
+    background-color: rgba(188, 206, 251, 0.3);
+    border-radius: 5px;
+    
+}
+
+.cardCollapsibleIconTitle{
+        color: rgb(32,33,36);
+        display: inline-block;
+        font-family: "Google Sans","Roboto",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        letter-spacing: .09px;
+        line-height: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 76px;
+    }
+    
+   .borderAfterShoppingIcon {
+    border-bottom: 1px solid rgb(232,234,237);
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    position: relative;
+    right: 15px;
+    width: 107%;
+   }
+
+   .btnIconMore {
+    text-align: center;
+   }
+
+   .btnMoreIconLink {
+    border: 1px solid lightgray;
+    background-color: white;
+    width: 180px;
+   }
+
+   .btnMoreIconLink:hover {
+    background-color: rgba(188, 206, 251, 0.3);
+    border: 1px solid lightgray;
+   }
+
+   /*Hover effect on google search icon*/
+   .hover-shadow {
+    transition: box-shadow 0.1s ease;
+  }
+
+  .hover-shadow:hover {
+    box-shadow: 0 0 3px rgba(147, 147, 147, 0.5);
+  }
+
+  .googleLangText {
+    font-size: 13px;
+  }
+
+  .googleLangText1 {
+    font-size: 14px;
+  }
+
+  .langLinks a {
+    text-decoration: none;
+  }
+
+  .langLinks a:hover {
+    text-decoration: underline;
+    color: #0D85FE;
+  }
+
+  .footer-links a {
+    text-decoration: none;
+  }
+
+  .footer-links a:hover {
+    text-decoration: underline;
+    color: gray;
+  }

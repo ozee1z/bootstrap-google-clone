@@ -167,6 +167,14 @@ div.row {
       height: 59px;
     }
 
+    .appIcon:hover {
+      outline: #F0F0F0 solid 8px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      background-color: #F0F0F0;
+  }
+
     .cardCollapsibleIconTitle{
       color: rgb(32,33,36);
       display: inline-block;

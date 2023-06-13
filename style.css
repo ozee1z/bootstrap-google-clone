@@ -191,6 +191,7 @@ div.row {
 .appIcon:hover {
   outline: #F0F0F0 solid 8px;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
   background-color: #F0F0F0;
 }
 
@@ -204,13 +205,7 @@ div.row {
     /*Resizing the search box on mobile device*/
   .container {
     width: calc(100% - 40px) !important;
-    /*margin: 10px 3px 0 7px !important;*/
   }
-
-  /*Added extra margin to its element so that the tooltip will show at the bottom*/
-  /*.icon-margin{
-    margin-right: 23px !important;
-  }*/
 
   /*Resizing the search button*/
   .btn-search {

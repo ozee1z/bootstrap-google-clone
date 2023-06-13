@@ -171,7 +171,7 @@ div.row {
       color: rgb(32,33,36);
       display: inline-block;
       font-family: "Google Sans","Roboto",Helvetica,Arial,sans-serif;
-      font-size: 10px;
+      font-size: 13px;
       letter-spacing: .045px;
       line-height: 9px;
       overflow: hidden;
@@ -187,5 +187,31 @@ div.row {
     overflow-x: hidden;
     box-sizing: border-box;
 }
+
+  /*Resizing the google logo on mobile device*/
+  .google-img img {
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+  }
+
+    /*Resizing the search box on mobile device*/
+  .container {
+    width: calc(100% - 20px) !important;
+    margin: 10px 3px 0 7px !important;
+  }
+
+  /*Resizing the search button*/
+  .btn-search {
+    font-size: 13px;
+  }
+
+  /*Styling the footer on mobile device*/
+  .footer-flexBox{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-size: 10px;
+  }
 
   }

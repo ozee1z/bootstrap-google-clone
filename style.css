@@ -168,10 +168,8 @@ div.row {
     }
 
     .appIcon:hover {
-      outline: #F0F0F0 solid 8px;
+      outline: #F0F0F0 solid 4px;
       border-radius: 50%;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
       background-color: #F0F0F0;
   }
 

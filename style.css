@@ -188,13 +188,6 @@ div.row {
     box-sizing: border-box;
 }
 
-.appIcon:hover {
-  outline: #F0F0F0 solid 8px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  background-color: #F0F0F0;
-}
-
   /*Resizing the google logo on mobile device*/
   .google-img img {
     width: 120px;

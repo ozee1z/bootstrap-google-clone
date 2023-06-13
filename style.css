@@ -201,7 +201,7 @@ div.row {
     margin: 10px 3px 0 7px !important;
   }
 
-  /*Added extra margin to its element so that the tooltip will sure at the bottom*/
+  /*Added extra margin to its element so that the tooltip will show at the bottom*/
   .icon-margin{
     margin-right: 20px !important;
   }

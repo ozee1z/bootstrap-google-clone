@@ -201,6 +201,11 @@ div.row {
     margin: 10px 3px 0 7px !important;
   }
 
+  /*Added extra margin to its element so that the tooltip will sure at the bottom*/
+  .icon-margin{
+    margin-right: 20px !important;
+  }
+
   /*Resizing the search button*/
   .btn-search {
     font-size: 13px;

@@ -29,3 +29,99 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+
+/*Onclick function for the light theme icon*/
+function handleClick(){
+  myFunction();
+  inputFieldColor();
+}
+
+/*light and dark theme function*/
+
+function myFunction() {
+  /*This code changes the body of the page from light to dark mode*/
+  let element = document.body;
+  element.classList.toggle("dark-mode");
+  
+  /*This code changes the google search border 
+  color when toggle from light to dark mode*/
+
+  let borderColor = document.querySelector(".border-color");
+  borderColor.classList.toggle("border-secondary");
+
+  /*This code changes the nav links 
+  color when toggle from light to dark mode*/
+
+  let navColor = document.querySelectorAll(".nav-color");
+  navColor.forEach(function(navCol){
+    navCol.classList.toggle("text-white");
+  });
+
+  /*This code changes the background color when you hover
+  over the appIcon when toggle from light to dark mode*/
+
+  let navColorHover = document.querySelector('.navColorHov');
+  navColorHover.classList.toggle("appIcon-dark-mode");
+
+  /*This code changes the background color and hover background color
+  of the signIn button when toggle from light to dark mode*/
+
+  let signInBtn = document.querySelector(".signIn");
+  signInBtn.classList.toggle("signInColor");
+  
+  /*This code changes the goole logo to a light goole logo when toggle*/
+  let googleImg = document.querySelector(".google-img1");
+  if(googleImg.src.endsWith("img/googlelogo.png")){
+    googleImg.src = "img/googlelogo_light_color.png";
+  }
+  else{
+    googleImg.src = "img/googlelogo.png";
+  }
+
+  /*This code adds white border when hover to the buttons below the search input bar*/
+  let btnSearchToggle = document.querySelectorAll(".btn-search");
+  btnSearchToggle.forEach(function(btnToggle){
+    btnToggle.classList.toggle("btnToggle-search");
+  })
+
+  let collapseCard = document.querySelector(".card-div");
+  collapseCard.classList.toggle("collapse-card-dark-mode");
+}
+
+
+/*This code changes the input field color and
+ search button colors when toggle from light to dark mode*/
+
+let currentColor = false;
+
+function inputFieldColor(){
+  let inFC = document.querySelector(".inputField");
+  let searchBtn = document.querySelectorAll(".btn-search");
+  let color1 = "white";
+  let color2 = "#202124";
+  let color3 = "#303134"
+  let color4 = "#f0f0f0"
+
+  if(currentColor){
+    inFC.style.backgroundColor = color1;
+    inFC.style.color = color2;
+    searchBtn.forEach((button) => {
+      button.style.backgroundColor = color4;
+      button.style.color = color2;
+    });
+   
+  }
+  else{
+    inFC.style.backgroundColor = color2;
+    inFC.style.color = color1;
+    searchBtn.forEach((button) => {
+      button.style.backgroundColor = color3;
+      button.style.color = color1;
+    });
+    
+  }
+
+   currentColor = !currentColor;
+}
+
+

@@ -25,6 +25,8 @@ body{
     background-color: #F0F0F0;
 }
 
+
+
 /*Creating custom tooltip*/
 .custom-tooltip {
     position: relative;
@@ -160,6 +162,7 @@ div.row {
     color: gray;
   }
 
+
   /*creating responsive design for mobile phones*/
   @media only screen and (max-width: 768px) {
     .collapsibleIconStyle a img {
@@ -213,4 +216,69 @@ div.row {
     font-size: 10px;
   }
 
+  .light-mode-icon {
+    position: absolute;
+    font-size: 12px;
+    margin-top: 2px;
+    cursor: pointer;
   }
+  /*End of responsive design for mobile phones*/
+  }
+
+  /*Light and dark theme classes*/
+  .light-mode-icon {
+    position: absolute;
+    font-size: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+
+  .dark-mode {
+    background-color: #202124;
+    color: white;
+    
+  }
+
+  .appIcon-dark-mode:hover{
+    outline: rgba(232,234,237,.12) solid 8px;
+    border-radius: 50%;
+    background-color: rgba(232,234,237,.12);
+    opacity: 1;
+  }
+
+  .collapse-card-dark-mode {
+    background-color: #303134;
+    color: white;
+  }
+  
+  .signInColor {
+    background-color: #8ab4f8;
+    border: 1px solid transparent;
+    color: black;
+  }
+  
+  .signInColor:hover {
+    background-color: #93baf9 !important;
+    border: 1px solid transparent !important;
+    color: black !important;
+  }
+  
+  .signInColor:active {
+    background-color: #8ab4f8 !important;
+    border: 1px solid transparent !important;
+    color: black !important;
+  }
+  
+  .google-img1 {
+    width: 272px;
+    height: 92px;
+  }
+
+  .btnToggle-search{
+    border: 1px solid transparent !important;
+  }
+
+  .btnToggle-search:hover {
+    border: 1px solid #5f6368 !important;
+  }
+  

@@ -206,7 +206,7 @@ div.row {
 
     /*Resizing the search box on mobile device*/
   .container {
-    width: calc(100% - 42px) !important;
+    width: calc(100% - 45px) !important;
   }
 
   /*Resizing the search button*/

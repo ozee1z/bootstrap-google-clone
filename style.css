@@ -20,9 +20,9 @@ body{
 }
 
 .appIcon:hover {
-    outline: #F0F0F0 solid 8px !important;
-    border-radius: 50% !important;
-    background-color: #F0F0F0 !important;
+    outline: #F0F0F0 solid 8px;
+    border-radius: 50%;
+    background-color: #F0F0F0;
 }
 
 

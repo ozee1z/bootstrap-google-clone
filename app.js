@@ -158,7 +158,8 @@ function toggleIcon() {
   }
 }
 
-function addTouchClass() {
+
   let hoverTouch = document.querySelector(".appIcon");
-  hoverTouch.classList.add("touched");
-}
+  hoverTouch.addEventListener(function(){
+    hoverTouch.classList.add("touched");
+  });

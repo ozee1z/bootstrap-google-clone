@@ -172,7 +172,6 @@ div.row {
   /*creating responsive design for mobile phones*/
   @media only screen and (max-width: 768px) {
     .appIcon:hover {
-      border: #F0F0F0 solid 8px;
       border-radius: 50%;
       background-color: #F0F0F0;
     }

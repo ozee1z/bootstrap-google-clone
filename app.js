@@ -158,3 +158,7 @@ function toggleIcon() {
   }
 }
 
+function addTouchClass() {
+  let hoverTouch = document.querySelector(".appIcon");
+  hoverTouch.classList.add("touched");
+}

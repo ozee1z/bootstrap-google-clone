@@ -157,9 +157,3 @@ function toggleIcon() {
     changeToDarkModeIcon.innerHTML = 'light_mode'
   }
 }
-
-
-  let hoverTouch = document.querySelector(".appIcon");
-  hoverTouch.addEventListener(function(){
-    hoverTouch.classList.add("touched");
-  });

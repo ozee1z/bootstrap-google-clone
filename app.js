@@ -85,25 +85,31 @@ function myFunction() {
     btnToggle.classList.toggle("btnToggle-search");
   })
 
+  /*This code adds dark mode to the card div background when toggled*/
   let collapseCard = document.querySelector(".card-div");
   collapseCard.classList.toggle("collapse-card-dark-mode");
 
+  /*Changes the text color titles of icon in the card div when toggled*/
   let collapseCardText = document.querySelectorAll(".cardCollapsibleIconTitle");
   collapseCardText.forEach(function(textColor){
     textColor.classList.toggle("collapse-card-text-dark-mode")
   });
 
+  /*Changes the background color of icons in the card div when hover when is toggled*/
   let collapseCardHover = document.querySelectorAll(".collapsibleIconStyle");
   collapseCardHover.forEach(function(cardHover){
     cardHover.classList.toggle("collapsibleIconStyle-dark-mode");
   });
 
+  /*Changes the color of the border in the div card when toggled*/
   let borderAfterShoppingIcon = document.querySelector(".borderAfterShoppingIcon");
   borderAfterShoppingIcon.classList.toggle("borderAfterShoppingIcon-dark-mode");
 
+  /*Changes the color of the button in the card div when toggled*/
   let cardButtonMoreLink = document.querySelector(".btnMoreIconLink");
   cardButtonMoreLink.classList.toggle("btnMoreIconLink-dark-mode");
 
+  /*Changes the color of the border in the footer when toggled*/
   let footerBorder = document.querySelector(".footer-border");
   footerBorder.classList.toggle("border-secondary");
 }

@@ -171,16 +171,9 @@ div.row {
 
   /*creating responsive design for mobile phones*/
   @media only screen and (max-width: 768px) {
-    .appIcon {
-      outline: none;
+    .appIcon:active {
       border-radius: 50%;
-  }
-
-  .appIcon:hover {
-    background-color: rgba(60,64,67,.08);
-    opacity: 1;
-}
-
+    }
     .collapsibleIconStyle a img {
       width: 58px;
       height: 59px;

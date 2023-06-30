@@ -8,7 +8,6 @@ This project is a practice exercise aimed at improving my Bootstrap skills. It i
 - [Features](#features)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license) 
 
 <a name="introduction"></a>
 ### Introduction
@@ -47,11 +46,6 @@ Contributions are welcome! If you'd like to contribute to the Bootstrap Google C
 5. Open a pull request, describing the changes you've made and their purpose.
 
 Please ensure that your contributions align with the project's goals and coding style. Your efforts will be greatly appreciated!
-
-<a name="license"></a>
-### License
-
-This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for personal and commercial purposes.
 
 By creating the Bootstrap Google Clone project, I aim to improve my Bootstrap skills while also exploring JavaScript's capabilities in web development. I hope this project serves as a valuable resource for learning and experimentation. Should you have any questions or suggestions, please feel free to reach out.
 

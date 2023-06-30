@@ -171,10 +171,6 @@ div.row {
 
   /*creating responsive design for mobile phones*/
   @media only screen and (max-width: 768px) {
-    .appIcon {
-      width: 15px;
-      height: 15px;
-    }
     .collapsibleIconStyle a img {
       width: 58px;
       height: 59px;

@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function handleClick(){
   myFunction();
   inputFieldColor();
-  toggleIcon() 
+  toggleIcon(); 
 }
 
 /*light and dark theme function*/
@@ -125,8 +125,8 @@ function inputFieldColor(){
   let searchBtn = document.querySelectorAll(".btn-search");
   let color1 = "white";
   let color2 = "#202124";
-  let color3 = "#303134"
-  let color4 = "#f0f0f0"
+  let color3 = "#303134";
+  let color4 = "#f0f0f0";
 
   if(currentColor){
     inFC.style.backgroundColor = color1;
@@ -160,6 +160,70 @@ function toggleIcon() {
     changeToDarkModeIcon.innerHTML = 'dark_mode';
   }
   else {
-    changeToDarkModeIcon.innerHTML = 'light_mode'
+    changeToDarkModeIcon.innerHTML = 'light_mode';
   }
 }
+
+/*When you enter some text in the input field and click the "Google Search" button, it will perform a Google search using the entered text. The search results will open in a new tab.*/
+let searchInputField1 = document.querySelector('.inputField');
+let searchButton1 = document.getElementById('searchButton1');
+
+function buttonSearch1(){
+  //Get the value of the inputfield
+  let searchText1 = searchInputField1.value;
+
+  // Check if the search text is empty
+  if (searchText1 === '') {
+    return; // Do nothing if the search text is empty
+  }
+
+  // Construct the Google search URL with the search text
+  const searchUrl1 = 'https://www.google.com/search?q=' + encodeURIComponent(searchText1);
+
+  // Open the search URL in a new tab
+  window.open(searchUrl1, '_blank');
+}
+
+// Add a click event listener to the search button
+searchButton1.addEventListener('click', buttonSearch1);
+
+// Add an enter key event listener so that you can perform search with the enter key.
+searchInputField1.addEventListener('keydown',function(event){
+  if (event.keyCode === 13) {
+    // Prevent the default form submission behavior
+    event.preventDefault();
+
+    // search button
+    buttonSearch1();
+  }
+});
+
+
+/*When you enter some text in the input field and click the "I'm Feeling Lucky" button, it will perform a Google search using the entered text. The search results will open in a new tab.*/
+let searchInputField2 = document.querySelector('.inputField');
+let searchButton2 = document.getElementById('searchButton2');
+
+function buttonSearch2(){
+  //Get the value of the inputfield
+  let searchText2 = searchInputField2.value;
+
+  // Construct the Google search URL with the search text
+  const searchUrl2 = 'https://www.google.com/search?btnI=1&q=' + encodeURIComponent(searchText2);
+
+  // Open the search URL in a new tab
+  window.open(searchUrl2, '_blank');
+}
+
+// Add a click event listener to the search button
+searchButton2.addEventListener('click', buttonSearch2);
+
+// Add an enter key event listener so that you can perform search with the enter key.
+searchInputField2.addEventListener('keydown',function(event){
+  if (event.keyCode === 13) {
+    // Prevent the default form submission behavior
+    event.preventDefault();
+
+    // search button
+    buttonSearch2();
+  }
+});

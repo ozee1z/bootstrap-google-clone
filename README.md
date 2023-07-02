@@ -27,7 +27,7 @@ The Bootstrap Google Clone project is designed to help me gain hands-on experien
 
 To use the Bootstrap Google Clone project, follow these steps:
 
-1. Clone the repository: git clone https://github.com/ozee1z/googleClone.git
+1. Clone the repository: git clone https://github.com/ozee1z/bootstrap-google-clone.git
 2. Open the project in a web browser.
 3. Explore the Google.com clone by interacting with the search box, buttons, and other elements.
 4. Experiment with different search queries and observe the displayed results.
